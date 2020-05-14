@@ -1,0 +1,669 @@
+/* Fontes */
+
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans|Monoton|Montserrat|Orbitron|Press+Start+2P|Quantico&display=swap');
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+header {
+    overflow-x: hidden;
+}
+
+section {
+    /*  overflow-x: hidden;*/
+    overflow-x: hidden;
+
+}
+
+:root {
+
+    --script: "Kaushan Script", cursive;
+    --Press2P: "Press Start 2P", cursive;
+    --Montserrat: "Montserrat", cursive;
+    --BlackHanSans: "Black Han Sans", cursive;
+    --Orbitron: "Orbitron", cursive;
+    --bgGray: #030303f6;
+    --bgSoftGray: #070a07fa;
+    --bgDarken: #006816;
+    --highLight: #00e600;
+    --lessLight: #005700;
+    --lightGray: rgb(180, 180, 180);
+}
+
+header a {
+    font-family: var(--Orbitron);
+    font-size: 0.9em;
+    color: rgb(212, 212, 212);
+}
+
+header {
+
+    background: var(--bgSoftGray) url("../assets/bg3.svg") no-repeat fixed center;
+    background-size: 120%;
+    background-blend-mode: multiply;
+}
+
+header .nav-item:last-child {
+    padding-right: 10.5em;
+}
+
+header .nav-item {
+    padding: 0.9em;
+}
+
+header .navbar-brand img {
+
+    padding-left: 6rem;
+    color-adjust: var(--highLight);
+}
+
+
+header .navbar-brand img:hover {
+
+    fill: var(--highLight);
+    padding-left: 6rem;
+    color-adjust: var(--highLight);
+}
+
+header .nav-link:hover {
+    color: var(--highLight);
+}
+
+header .row .col-md-5 {
+    padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-7 {
+    padding: 15vmin 1vmin;
+    padding-bottom: 35vmin;
+    color: whitesmoke;
+}
+
+header .row .col-md-5 img {
+    width: 90%;
+    rotate: -0.07rad;
+    padding-top: 5vmin;
+}
+
+header .container .col-md-7 h6 {
+    font-family: var(--Montserrat);
+    padding: 1vmin;
+    letter-spacing: 4px;
+}
+
+header .container .col-md-7 h1 {
+    font-family: var(--Orbitron);
+    font-size: 8.5vmin;
+    font-weight: bolder;
+    padding: 0.1em 0em;
+    /* background-color: rgba(42, 180, 0, 0.329); */
+}
+
+header .container .col-md-7 p {
+    padding: 1vmin 5vmin;
+    font-family: var(--Montserrat);
+}
+
+header .container .col-md-7 button {
+    margin-top: 1em;
+    font-family: var(--Orbitron);
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+header .container .col-md-7 button:hover {
+    background-color: var(--highLight);
+    color: var(--lessLight);
+}
+
+/*section 1*/
+
+.section-1 {
+    padding: 20vmin 0;
+    background-color: var(--bgGray);
+}
+
+
+
+.section-1 .row .col-md-6 .pray img {
+    opacity: 0.7;
+    width: 80%;
+    border-radius: 0.2em;
+
+    background-color: var(--highLight);
+
+    padding-left: 1vmin;
+    padding-top: 1vmin;
+
+}
+
+
+
+.section-1 .row .col-md-6:last-child {
+    position: relative;
+}
+
+.section-1 .row .col-md-6 .panel {
+    position: absolute;
+    top: 7vmin;
+    left: -16vmin;
+    background-color: whitesmoke;
+    border-radius: 3px;
+    text-align: left;
+    padding: 13vmin 5vmin 20vmin 10vmin;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.1);
+
+}
+
+.section-1 .row .col-md-6 .panel .intro-text {
+    opacity: 1;
+    transform: translateY(30px);
+    transition: 0.5s all ease-in-out;
+}
+
+.intro-appear {
+    opacity: 1;
+    transform: translateY(0px);
+    transition: 0.5s all ease-in-out;
+}
+
+.section-1 .row .col-md-6 .panel h1 {
+    text-align: center;
+    font-family: var(--Orbitron);
+    font-weight: bold;
+
+    font-size: 2em;
+    padding: 0.4em 0;
+    background-color: var(--bgGray);
+    color: var(--highLight);
+    padding: 3vmin 3vmin 3vmin 3vmin;
+
+}
+
+.section-1 .row .col-md-6 .panel p {
+    font-family: var(--Montserrat);
+    font-weight: normal;
+    font-size: 0.8em;
+    opacity: 0.7;
+}
+
+/*  section 2*/
+
+.cover {
+    overflow-y: hidden;
+    width: 100%;
+
+    background: var(--bgSoftGray) url("../assets/bg3.svg") no-repeat fixed center;
+    background-size: 120%;
+    background-blend-mode: multiply;
+
+    position: relative;
+}
+
+.cover .content {
+
+    width: 100%;
+
+    padding-top: 20vmin;
+    padding-bottom: 20vmin;
+}
+
+.cover .content>h1 {
+    font-family: var(--Orbitron);
+    font-size: 10vmin;
+    font-weight: bold;
+    color: whitesmoke;
+    padding-bottom: 5vmin;
+}
+
+.cover .content>p {
+    font-family: var(--Montserrat);
+    font-size: 2vmin;
+    color: whitesmoke;
+    padding-left: 30vmin;
+    padding-right: 30vmin;
+}
+
+.numbers .rect {
+    position: relative;
+    z-index: 1;
+    background-color: #001d00;
+    width: 14rem;
+    height: 10rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: .5em;
+    box-shadow: 1px 2px 10px 0px rgba(123, 255, 62, 0.4);
+    border-radius: 60px;
+}
+
+.numbers .rect:hover {
+    position: relative;
+    z-index: 1;
+    background-color: var(--lessLight);
+    width: 14rem;
+    height: 10rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: .5em;
+    box-shadow: 1px 2px 10px 0px rgb(102, 255, 0);
+    border-radius: 10px;
+    transform: translateY(-10px);
+    transition: 0.3s all ease-in-out;
+}
+
+.numbers {
+    margin-top: -12vmin;
+}
+
+.numbers .rect h1 {
+    font-size: 1.8vmin;
+    font-weight: bold;
+    font-family: var(--Press2P);
+    color: var(--highLight);
+    padding: 3vmin 1vmin;
+}
+
+.numbers .rect i {
+    font-size: 4vmin;
+    color: var(--highLight);
+}
+
+
+.section-2 {
+    background-color: var(--bgGray);
+}
+
+
+.purchase>h1 {
+    font-family: var(--Orbitron);
+    font-size: 7vmin;
+    font-weight: bold;
+    color: whitesmoke;
+    padding-bottom: 5vmin;
+    padding-top: 15vmin;
+    padding-bottom: 2vmin;
+}
+
+.purchase>p {
+    font-family: var(--Montserrat);
+    font-size: 2vmin;
+    color: whitesmoke;
+    padding-left: 30vmin;
+    padding-right: 30vmin;
+    padding-bottom: 15vmin;
+}
+
+
+.purchase .cards .card {
+
+    margin: 1em;
+    margin-top: 2rem;
+    border-radius: .5em;
+
+    box-shadow: 1px 2px 10px 0px rgba(123, 255, 62, 0.4);
+
+    width: 20em;
+
+
+}
+
+.cards .card div {
+
+    background: var(--bgGray);
+    padding: 0;
+    margin: 0;
+}
+
+.cards .title {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.purchase .cards h5 {
+    font-size: 16px;
+    font-family: var(--Orbitron);
+    font-weight: bold;
+    color: rgb(102, 255, 0);
+    padding-top: 2vmin;
+}
+
+.purchase .cards h6 {
+    font-family: var(--Montserrat);
+    opacity: 50%;
+    color: var(--highLight);
+    padding-bottom: 2vmin;
+}
+
+.purchase .cards img {
+    width: 100%;
+}
+
+.anime-card {
+
+    padding-top: 7vmin;
+    padding-bottom: 3vmin;
+    max-width: 100%;
+
+}
+
+.anime-text {
+    padding-top: 1vmin;
+    padding-bottom: 1vmin;
+    margin-right: 10vmin;
+    margin-left: 10vmin;
+    max-width: 100%;
+    border-radius: 80px;
+    background-color: rgba(0, 0, 0, 0.1);
+
+}
+
+.anime-text .quote {
+    margin: 1vmin;
+    margin-top: 2vmin;
+    padding-bottom: 2vmin;
+    font-family: var(--Press2P);
+    font-size: 16px;
+
+    color: var(--highLight);
+}
+
+.anime-text .else {
+    padding-top: 1vmin;
+    color: white;
+    font-family: var(--Montserrat);
+    opacity: 50%;
+}
+
+.anime-text .less {
+    padding-top: 1vmin;
+    color: white;
+    font-family: var(--Montserrat);
+
+    font-weight: bolder;
+    opacity: 25%;
+}
+
+/* section 3 */
+
+.section-3 {
+    height: 90vmin;
+
+
+    width: 100%;
+
+    background: var(--bgSoftGray) url("../assets/bg3.svg") no-repeat fixed center;
+    background-size: 120%;
+    background-blend-mode: multiply;
+
+    position: relative;
+
+}
+
+.section-3 .col-md-12>h1 {
+    padding: 2em 0 0.5em 5vmin;
+    color: whitesmoke;
+    font-family: var(--Orbitron);
+    font-size: 8vmin;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-left: 5vmin;
+    padding-right: 5vmin;
+}
+
+.section-3 .col-md-12>p {
+    font-family: var(--Montserrat);
+    font-size: 2vmin;
+    color: whitesmoke;
+    padding-left: 30vmin;
+    padding-right: 30vmin;
+}
+
+.section-3 .plataform {
+    padding-top: 8vmin;
+    padding-bottom: 2vmin;
+}
+
+.section-3 .desktop {
+
+    box-shadow: 1px 2px 10px 0px rgb(123, 255, 62);
+    position: relative;
+    z-index: 1;
+    background-color: #001d00;
+
+
+    border-radius: 3em;
+
+
+
+    display: inline-block;
+
+    padding: 2vmin 4.5vmin;
+    margin: 2em;
+
+}
+
+
+.section-3 .desktop:hover {
+
+    position: relative;
+    z-index: 1;
+
+
+
+    border-radius: 3em;
+    box-shadow: 1px 2px 10px 0px rgb(123, 255, 62);
+
+
+    display: inline-block;
+
+    padding: 2vmin 4.5vmin;
+    margin: 2em;
+
+
+    background-color: var(--lessLight);
+
+
+
+    border-radius: .5em;
+    box-shadow: 1px 2px 10px 0px rgb(102, 255, 0);
+    border-radius: 10px;
+    transform: translateY(-10px);
+    transition: 0.3s all ease-in-out;
+}
+
+.section-3 .desktop h3 {
+    font-size: 3.5vmin;
+    font-weight: bold;
+    font-family: var(--Orbitron);
+    color: var(--highLight);
+
+}
+
+.section-3 .desktop p {
+    font-family: var(--Montserrat);
+    font-size: 2vmin;
+    color: whitesmoke;
+    opacity: 60%;
+}
+
+.section-3 .desktop i {
+    font-size: 6.5vmin;
+    color: var(--highLight);
+}
+
+/* Footer */
+
+footer {
+    background: var(--bgGray);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+
+footer h1,
+h4 {
+    color: whitesmoke;
+    font-family: var(--Orbitron);
+    font-size: 3vmin;
+    font-weight: bold;
+}
+
+footer p {
+    font-family: var(--Montserrat);
+    font-size: 2vmin;
+    color: whitesmoke;
+}
+
+footer p>span {
+    color: var(--highLight);
+    text-decoration: none;
+}
+
+footer p>span a {
+    color: var(--highLight);
+    text-decoration: none;
+}
+
+footer p>span a:hover {
+    color: var(--bgDarken);
+    text-decoration: none;
+}
+
+
+footer input {
+    border: none !important;
+}
+
+footer input::placeholder {
+    color: darkolivegreen !important;
+}
+
+footer .input-group .input-group-text {
+    background-color: var(--highLight);
+    border: none;
+}
+
+footer .column i {
+    color: var(--highLight);
+    font-size: 2.5vmin;
+
+}
+
+footer .column i:hover {
+    color: var(--bgDarken);
+    font-size: 2.5vmin;
+
+}
+
+footer .column i+i {
+    padding: 0 0.7em;
+}
+
+/* LOADER */
+
+
+.gooey {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 142px;
+    height: 40px;
+    margin: -20px 0 0 -71px;
+    background: var(--bgGray);
+    filter: contrast(20);
+}
+
+.gooey .dot {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 12px;
+    left: 15px;
+    filter: blur(4px);
+    background: var(--highLight);
+    border-radius: 50%;
+    transform: translateX(0);
+    animation: dot 2.8s infinite;
+}
+
+.gooey .dots {
+    transform: translateX(0);
+    margin-top: 12px;
+    margin-left: 31px;
+    animation: dots 2.8s infinite;
+}
+
+.gooey .dots span {
+    display: block;
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-left: 16px;
+    filter: blur(4px);
+    background: var(--highLight);
+    border-radius: 50%;
+}
+
+@-moz-keyframes dot {
+    50% {
+        transform: translateX(96px);
+    }
+}
+
+@-webkit-keyframes dot {
+    50% {
+        transform: translateX(96px);
+    }
+}
+
+@-o-keyframes dot {
+    50% {
+        transform: translateX(96px);
+    }
+}
+
+@keyframes dot {
+    50% {
+        transform: translateX(96px);
+    }
+}
+
+@-moz-keyframes dots {
+    50% {
+        transform: translateX(-31px);
+    }
+}
+
+@-webkit-keyframes dots {
+    50% {
+        transform: translateX(-31px);
+    }
+}
+
+@-o-keyframes dots {
+    50% {
+        transform: translateX(-31px);
+    }
+}
+
+@keyframes dots {
+    50% {
+        transform: translateX(-31px);
+    }
+}
+
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background: none repeat scroll 0 0 #000000;
+}
